@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ast-cadence"
+version = "0.1.0"
+description = "Static Call-Graph AST Slicer & Semantic Topology Compactor for Coding Agent Contexts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed@example.com" }
+]
+keywords = [
+    "ast",
+    "call-graph",
+    "context-compression",
+    "code-analysis",
+    "claude-opus-5-5",
+    "gpt-6-astra",
+    "ai-agents"
+]
+dependencies = []
+
+[project.scripts]
+ast-cadence = "ast_cadence.cli:main"
